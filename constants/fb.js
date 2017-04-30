@@ -1,5 +1,7 @@
 import firebase from 'firebase';
 
+console.log(process.env);
+
 module.exports = {
   fb: firebase.initializeApp({
     apiKey: process.env.API_KEY,
